@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.clear {
+    clear: both;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-image: url('../imagens/banner.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+header li{
+    float: right;
+    list-style: none;
+    color: white;
+    padding: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    
+}
+.logo{
+    color: white;
+    float: left;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: -3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.linha{
+    border: 1px solid white;
+    margin-left: 80px;
+    width: 91.4%;
+}
+h1{
+    text-align: center;
+    margin-top: 18%;
+    color: white;
+    padding-left: 20px;
+}
+h3{
+    color: white;
+    font-weight: 300;
+}
+section.sessao-servicos{
+    background-color:#44260e;
+    padding: 20px;  
+    text-align: center; 
+    
+   } 
+.servicos{
+       display: inline-block;
+       max-width: 80%;
+       margin-left: 40px;
+       text-align: center;
+   }
+
+.servicos h3{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+       
+   }
+.servicos p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+section.sessao-contato{
+    background-color:#eee9e4;
+    padding: 20px;  
+    text-align: center; 
+}
+.contato{
+    
+    max-width: 80%;
+   
+}
+    
+.form-contato h3{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.form-contato input{
+    width: 50%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-top: 40px;   
+}
+.sub {
+    color: white;
+    background-color:#44260e;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100px;
+    height: 50px;
+    border:none;
+    margin-top: 40px;
+    cursor: pointer; 
+    
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: #D9D2C5;
+    ma-top: 10px;
+}
+footer p{
+    text-align: center;
+    padding-top:5px;
+    
+}
