@@ -2,8 +2,8 @@
 
 ![Screenshot](DesafioProgramadorBr.gif)
 
+### Características
 
-- Funciona em todos os tipos de telas.
 - Css
 - Html
 
